@@ -1,0 +1,27 @@
+  <mat-card class="main-card col-12">
+    <h1 class="calculator-text" align="center">Calculator</h1>
+    <div class="row"></div>
+     <input align="center" type="text" id="display" class="display col-12" readonly >
+     <div class="buttons">
+       <button id="clearAll" (click)="clearDisplay()" class="vertical-align-top button-format-operators col-4"><mat-icon>delete</mat-icon></button>
+       <button class="button-format-operators col-4" value="(" (click)="appendToDisplay('(')">(</button>
+       <button class="button-format-operators col-4" value=")" (click)="appendToDisplay(')')">)</button>
+       <button class="button-format-operators col-4" value="/" (click)="appendToDisplay('/')">/</button>
+       <button (click)="appendToDisplay('7')" class="button-format col-4">7</button>
+       <button (click)="appendToDisplay('8')" class="button-format col-4">8</button>
+       <button (click)="appendToDisplay('9')" class="button-format col-4">9</button>
+       <button class="operator button-format-operators col-4" value="*" (click)="appendToDisplay('*')">*</button>
+       <button (click)="appendToDisplay('4')" class="button-format col-4">4</button>
+       <button (click)="appendToDisplay('5')" class="button-format col-4">5</button>
+       <button (click)="appendToDisplay('6')" class="button-format col-4">6</button>
+       <button class="operator button-format-operators col-4" value="+" (click)="appendToDisplay('+')">+</button>
+       <button (click)="appendToDisplay('1')" class="button-format col-4">1</button>
+       <button (click)="appendToDisplay('2')" class="button-format col-4">2</button>
+       <button (click)="appendToDisplay('3')" class="button-format col-4">3</button>
+       <button class="operator button-format-operators col-4" value="-" (click)="appendToDisplay('-')">-</button>
+       <button (click)="clearLastDigit()" class="vertical-align-top button-format-operators col-4"><mat-icon class="icon-format">backspace</mat-icon></button>
+       <button (click)="appendToDisplay('0')" class="button-format col-4">0</button>
+       <button class="operator button-format-operators col-4" value="," (click)="appendToDisplay('.')">,</button>
+       <button id="calculate" (click)="calculate()" class="equals-button button-format-operators col-4">=</button>
+    </div>
+  </mat-card>

@@ -4,6 +4,10 @@
     <mat-icon>slow_motion_video</mat-icon>
     <span class="nav-caption">BMI-Calculator</span>
   </a>
+    <a mat-list-item routerLink="/calculator" (click)="onSidenavClose()">
+      <mat-icon>calculate</mat-icon>
+      <span class="nav-caption">Calculator</span>
+  </a>
   <a mat-list-item routerLink="/user" (click)="onSidenavClose()" *ngIf="userAvailable">
     <mat-icon>supervised_user_circle</mat-icon>
     <span class="nav-caption">User</span>

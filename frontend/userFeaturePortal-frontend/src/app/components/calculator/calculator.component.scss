@@ -1,0 +1,64 @@
+.main-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  width: 400px;
+  height: 600px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.button-format {
+  font-size: 20px;
+  margin-left: 5px;
+  width: 80px;
+  height: 75px;
+  background-color: #1a1a1a;
+  color: white
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.button-format-operators {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 75px;
+  background-color: #ff3d00;
+  color: #000000;
+}
+
+.randomiser-button {
+  width: 165px;
+  height: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  position: absolute;
+  top: 94%;
+  left: 30%;
+
+}
+
+.display {
+  font-size: 20px;
+  background-color: #4d4d4d;
+  color: #ffffff;
+  shape-outside: border-box;
+  height: 50px;
+  text-align: center;
+  margin-left:5px;
+  margin-bottom: 35px;
+  font-family: historical-forms;
+}
+
+.calculator-text {
+  scale: 200%;
+  font-family: historical-forms;
+  font-size: 18px;
+  color: #c2c2c2;
+}
